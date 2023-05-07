@@ -53,7 +53,7 @@ describe("Student class", () => {
       let student2 = new Student("sarah", "smith", "bird-watching", 3.2);
 
       expect(Student.compareGPA(student1, student2)).to.equal(
-        "Both students have the same GPA"
+        "Both students have the same GPA."
       );
     });
 
